@@ -98,7 +98,6 @@
   <!-- Header with Logo -->
   <header>
     <div style="display:flex;align-items:center;gap:10px;">
-      <img src="https://dummyimage.com/150x50/1a237e/ffffff&text=NR+Vision+Tech" alt="">
       <h1>NR Vision Tech</h1>
     </div>
     <nav>
