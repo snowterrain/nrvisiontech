@@ -84,4 +84,93 @@
     footer {
       background: #1a237e;
       color: #ddd;
-      text-align: cente
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    footer a {
+      color: #90caf9;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header with Logo -->
+  <header>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <img src="https://dummyimage.com/150x50/1a237e/ffffff&text=NR+Vision+Tech" alt="NR Vision Tech Logo">
+      <h1>NR Vision Tech</h1>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#careers">Careers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Banner -->
+  <div class="hero">
+    <h2>Empowering Businesses with Technology & Talent</h2>
+    <p>We provide innovative IT solutions and staffing services to help companies thrive in a digital world.</p>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At <strong>NR Vision Tech</strong>, we deliver innovative IT solutions and
+      staffing services tailored to the needs of modern businesses. Our mission is
+      to empower organizations with the right technology and people to achieve
+      their vision.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>IT Consulting</h3>
+        <p>Providing expert guidance on cloud, cybersecurity, and enterprise IT solutions.</p>
+      </div>
+      <div class="card">
+        <h3>Staffing Solutions</h3>
+        <p>Connecting companies with top tech talent for contract and full-time roles.</p>
+      </div>
+      <div class="card">
+        <h3>Custom Software</h3>
+        <p>Building scalable and secure applications tailored to business requirements.</p>
+      </div>
+      <div class="card">
+        <h3>Managed Services</h3>
+        <p>End-to-end support to manage IT infrastructure, reducing downtime and costs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Careers Section -->
+  <section id="careers">
+    <h2>Careers</h2>
+    <p>
+      Join our growing team of IT professionals! We are always looking for passionate
+      individuals in software development, cloud engineering, data analytics, and more.
+      Send your resume to <a href="mailto:careers@nrvisiontech.com">careers@nrvisiontech.com</a>.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      📧 Email: <a href="mailto:info@nrvisiontech.com">info@nrvisiontech.com</a><br>
+      📍 Location: New York, USA
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 NR Vision Tech | IT Solutions & Staffing</p>
+  </footer>
+</body>
+</html>
