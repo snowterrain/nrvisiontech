@@ -165,10 +165,11 @@
   <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>
-      📧 Email: <a href="mailto:info@nrvisiontech.com">info@nrvisiontech.com</a><br>
-      📍 Location: Florida , USA
-    </p>
+  <p>
+  📧 Email: <a href="mailto:info@nrvisiontech.com">info@nrvisiontech.com</a><br>
+  📍 Location: Florida, USA<br>
+  📞 Phone: +1 (813) 848 9243
+  </p>
   </section>
 
   <!-- Footer -->
