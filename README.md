@@ -145,6 +145,10 @@
         <h3>Managed Services</h3>
         <p>End-to-end support to manage IT infrastructure, reducing downtime and costs.</p>
       </div>
+      <div class="card">
+      <h3>Training & Placement Guidance</h3>
+      <p>Upskill, prepare, and secure your ideal career path.</p>
+      </div>
     </div>
   </section>
 
