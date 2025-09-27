@@ -40,12 +40,15 @@
     nav a:hover {
       color: #fff;
     }
-    .hero {
-      background: url('https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
-      color: white;
-      text-align: center;
-      padding: 6rem 1rem;
-    }
+.hero {
+  background: linear-gradient(rgba(26,35,126,0.6), rgba(26,35,126,0.6)),
+              url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80')
+              no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 7rem 1rem;
+}
+
     .hero h2 {
       font-size: 2.5rem;
       margin-bottom: 1rem;
