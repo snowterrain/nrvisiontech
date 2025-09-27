@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -24,12 +24,21 @@
       line-height: 1.6;
     }
 
+    /* Hide any GitHub Pages default banner/header */
+    header.site-header,
+    div#header,
+    #banner,
+    .github-header,
+    .page-header {
+      display: none !important;
+    }
+
     /* Header */
     header {
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: #ffffff; /* Light header to match bright image */
+      background: #ffffff;
       color: #333;
       padding: 1rem 2rem;
       display: flex;
@@ -188,7 +197,7 @@
 </head>
 <body>
 
-  <!-- Header -->
+  <!-- Custom Header -->
   <header id="main-header">
     <h1>NR Vision Tech</h1>
     <nav>
@@ -210,8 +219,9 @@
   <section id="about">
     <h2>About Us</h2>
     <p>
-      <strong>NR Vision Tech</strong> delivers innovative IT solutions and staffing services tailored to the needs of modern businesses. 
-      Our mission is to empower organizations with the right technology and people to achieve their vision.
+      <strong>NR Vision Tech</strong> delivers innovative IT solutions and staffing services
+      tailored to the needs of modern businesses. Our mission is to empower organizations
+      with the right technology and people to achieve their vision.
     </p>
   </section>
 
@@ -248,7 +258,10 @@
     <p>
       Join our growing team of IT professionals! We’re always looking for passionate
       individuals in software development, cloud engineering, data analytics, and more.
-      Send your resume to <a href="mailto:hr@nrvisiontech.com">hr@nrvisiontech.com</a>.
+    </p>
+    <p>
+      📧 Please send your resume to
+      <a href="mailto:hr@nrvisiontech.com">hr@nrvisiontech.com</a>
     </p>
   </section>
 
