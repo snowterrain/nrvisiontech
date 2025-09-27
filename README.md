@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -248,7 +248,7 @@
     <p>
       Join our growing team of IT professionals! We’re always looking for passionate
       individuals in software development, cloud engineering, data analytics, and more.
-      Send your resume to <a href="mailto:careers@nrvisiontech.com">careers@nrvisiontech.com</a>.
+      Send your resume to <a href="mailto:hr@nrvisiontech.com">hr@nrvisiontech.com</a>.
     </p>
   </section>
 
