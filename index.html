@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -53,9 +53,29 @@
     .card:hover { transform: translateY(-6px); box-shadow: 0 8px 18px rgba(0,0,0,0.15); }
 
     /* Footer */
-    footer { background: #f7f7f7; color: #555; text-align: center; padding: 1.5rem; border-top: 1px solid #e0e0e0; }
+    footer {
+      background: #f7f7f7;
+      color: #555;
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-top: 1px solid #e0e0e0;
+      font-size: 0.95rem;
+    }
     footer a { color: var(--primary); text-decoration: none; }
     footer a:hover { color: var(--secondary); }
+    .everify {
+      margin-top: 1rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 0.95rem;
+    }
+    .everify img {
+      display: block;
+      margin: 0.8rem auto 0;
+      max-width: 180px;
+      height: auto;
+    }
 
     @media (max-width: 600px) {
       header { flex-direction: column; text-align: center; }
@@ -66,7 +86,7 @@
 </head>
 <body>
 
-  <!-- Custom Header -->
+  <!-- Header -->
   <header id="main-header">
     <h1>NRVisionTech</h1>
     <nav>
@@ -108,8 +128,7 @@
     <h2>Careers</h2>
     <p>Join our growing team of IT professionals! We’re always looking for passionate
     individuals in software development, cloud engineering, data analytics, and more.</p>
-    <p>📧 Please send your resume to <a href="mailto:hr@nrvisiontech.com">hr@nrvisiontech.com</a>
-    </p>
+    <p>📧 Please send your resume to <a href="mailto:hr@nrvisiontech.com">hr@nrvisiontech.com</a></p>
   </section>
 
   <!-- Contact -->
@@ -122,9 +141,15 @@
     </p>
   </section>
 
-  <!-- Footer -->
+  <!-- Footer with E-Verify -->
   <footer>
     <p>© 2025 NRVisionTech | IT Solutions & Staffing</p>
+    <div class="everify">
+      <strong>E-Verify Employer</strong><br>
+      NRVisionTech participates in the U.S. Department of Homeland Security’s
+      <a href="https://www.e-verify.gov/" target="_blank" rel="noopener">E-Verify</a>
+      program to confirm the employment eligibility of all newly hired employees.
+    </div>
   </footer>
 
   <script>
